@@ -40,4 +40,6 @@ with keyboard.Listener(on_press=on_press) as listener:
  ```
 
  ### 4. View Logs
- 
+  ```bash
+cat key_log.txt
+  ```
