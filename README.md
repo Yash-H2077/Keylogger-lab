@@ -9,8 +9,18 @@ Build a keylogger in Python to understand how attackers capture keystrokes.
 ## Methodology
  ### 1. Install Python and Pynput  
   ```bash
-sudo apy intsall python3-pip
-pip3 install pynput
+# Install venv 
+sudo apt install python3-venv
+
+# Create a virtual environment
+python3 -m venv ~/keylogger_demo/venv
+
+# Activate it
+source ~/keylogger_demo/venv/bin/activate
+
+# Install pynput in the venv
+pip install pynput
+
 ```
  ### 2 . Create a Keylogger Script
  - create a python file and paste the code.  
